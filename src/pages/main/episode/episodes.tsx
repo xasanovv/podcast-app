@@ -1,4 +1,3 @@
-import React from 'react';
 import Title from '../../../components/Title/title';
 import data from '../../../../db';
 import Episode from './episode';

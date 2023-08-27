@@ -1,4 +1,4 @@
-import { TitlePropsType } from "../../types/titleType";
+import { TitlePropsType } from '../../types/titleType';
 
 function Title({ text, subtitle }: TitlePropsType) {
   return (
@@ -11,7 +11,5 @@ function Title({ text, subtitle }: TitlePropsType) {
     </div>
   );
 }
-
-
 
 export default Title;
