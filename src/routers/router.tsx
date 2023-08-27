@@ -12,9 +12,7 @@ export default function Router() {
         <Route path="/" element={<Layout />}>
           <Route path="" element={<Main />}></Route>
           <Route path="about" element={<About />}></Route>
-          {/* <Route path="padcast-detail/:id" element={}></Route> */}
           <Route path="blog" element={<Blog />}></Route>
-          {/* <Route path="blog-detail/:id" element={}></Route> */}
         </Route>
       </Routes>
     </>
