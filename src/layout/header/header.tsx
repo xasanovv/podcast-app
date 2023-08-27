@@ -1,23 +1,8 @@
-import React from 'react';
 import logo from '../../assets/svgs/hero/logo.svg';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
 import { Button } from '../../components/button/button';
-import axios from 'axios';
 
 export default function Header() {
-  const [speakers, setSpeakers] = useState([]);
-
-  const getSpeakers = async () => {
-    await axios.get('http://localhost:3000/speakers').then((response) => {
-      setSpeakers(response);
-    })
-  };
-
-  useEffect(() => {
-    getSpeakers();
-  }, []);
-
   return (
     <>
       <header className="py-[28px] w-full">

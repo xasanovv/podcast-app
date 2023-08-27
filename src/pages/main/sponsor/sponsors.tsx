@@ -1,6 +1,5 @@
-import React from 'react'
-import Title from '../../components/Title/title'
-import data from '../../../db';
+import Title from '../../../components/Title/title';
+import data from '../../../../db';
 import Sponsor from './sponsor';
 
 const Sponsors = () => {
@@ -11,7 +10,7 @@ const Sponsors = () => {
         subtitle="Get exclusive episodes, merch and more"
       />
       <div className="pt-[100px] relative flex gap-5 flex-col lg:flex-row">
-        <div className='absolute -right-2 lg:-right-20 top-8 -z-100'>
+        <div className="absolute -right-2 lg:-right-20 top-8 -z-100">
           <svg
             width="147"
             height="153"
@@ -31,6 +30,6 @@ const Sponsors = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Sponsors
+export default Sponsors;

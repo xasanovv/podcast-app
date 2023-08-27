@@ -1,4 +1,3 @@
-import React from 'react';
 import Title from '../../components/Title/title';
 import { Button } from '../../components/button/button';
 import googlePodcastImage from '../../assets/svgs/social/googlePodcast.svg';

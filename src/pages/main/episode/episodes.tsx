@@ -1,8 +1,8 @@
 import React from 'react';
-import Title from '../../components/Title/title';
-import data from '../../../db';
+import Title from '../../../components/Title/title';
+import data from '../../../../db';
 import Episode from './episode';
-import { Button } from '../../components/button/button';
+import { Button } from '../../../components/button/button';
 
 const Episodes = () => {
   return (

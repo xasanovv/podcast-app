@@ -1,7 +1,8 @@
 import { Icon } from '@iconify/react/dist/iconify.js';
 import React from 'react';
+import { EpisodePropsType } from '../../../types/episodeType';
 
-const Episode = ({ episode }) => {
+const Episode: React.FC<{ episode: EpisodePropsType }> = ({ episode }) => {
   return (
     <div className="episode1 relative w-full h-full">
       <div className="episode__content "></div>
@@ -20,14 +21,17 @@ const Episode = ({ episode }) => {
               <a href={episode.socials.spotify}>
                 <Icon icon="mdi:spotify" />
               </a>
-              <a href={episode.socials.googlePodcast}>
+              <a href={episode.socials.youtube}>
                 <Icon icon="mdi:youtube" />
               </a>
             </div>
           </div>
           <div className="flex items-center gap-[6px] mt-5 ">
-            {episode.tags.map((tag) => (
-              <span className=" text-[12px] px-[12px] whitespace-nowrap py-[6px] border border-grey-color rounded-md ">
+            {episode.tags.map((tag: string) => (
+              <span
+                key={episode.id}
+                className=" text-[12px] px-[12px] whitespace-nowrap py-[6px] border border-grey-color rounded-md "
+              >
                 {tag}
               </span>
             ))}

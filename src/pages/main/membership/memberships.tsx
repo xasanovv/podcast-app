@@ -1,14 +1,13 @@
-import React from 'react';
-import Title from '../../components/Title/title';
-import data from '../../../db';
+import Title from '../../../components/Title/title';
+import data from '../../../../db';
 import Membership from './membership';
-import { Button } from '../../components/button/button';
+import { Button } from '../../../components/button/button';
 
 const Memberships = () => {
   return (
     <>
       <div className="container relative py-[140px]">
-        <div className='absolute right-60 -top-8'>
+        <div className="absolute right-60 -top-8">
           <svg
             width="292"
             height="292"
