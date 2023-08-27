@@ -1,20 +1,17 @@
-import { useEffect, useState } from 'react';
 import { Button } from '../../components/button/button';
 import { HeroSection } from '../../components/heroSection/heroSection';
 import { Swiper } from 'swiper/react';
 import { SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-import axios from 'axios';
 import Podcast from '../../components/podcast/podcast';
 import googlePodcastImage from '../../assets/svgs/social/googlePodcast.svg';
 import spotifyImage from '../../assets/svgs/social/spotify.svg';
 import youTubeImage from '../../assets/svgs/social/youTube.svg';
 import Inspire from './inspire';
 import Reviews from './reviews';
-import data from "../../../db"
+import data from '../../../db';
 import Memberships from './memberships';
 import Episodes from './episodes';
-import Sponsor from './sponsor';
 import Sponsors from './sponsors';
 
 function Main() {
@@ -29,7 +26,6 @@ function Main() {
   // useEffect(() => {
   //   getSpeakers();
   // }, []);
-  
 
   return (
     <>
@@ -87,11 +83,11 @@ function Main() {
           </div>
         </div>
       </HeroSection>
-      <Inspire/>
-      <Reviews/>
-      <Memberships/>
-      <Episodes/>
-      <Sponsors/>
+      <Inspire />
+      <Reviews />
+      <Memberships />
+      <Episodes />
+      <Sponsors />
     </>
   );
 }
