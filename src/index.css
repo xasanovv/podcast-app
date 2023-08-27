@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --header-bg-color: rgba(247, 237, 232, 1);
+  --text-orange-color: rgba(205, 70, 49, 1);
+  --text-grey-color: Grey;
+}
+
+.episode:hover .title> * {
+  color: var(--text-orange-color);
+}
+
+.episode__content {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: #81ADC8;
+  border-radius: 12px;
+}
+.episode1:hover .episode__content {
+  left: 12px; 
+  top: 12px;
+  transition: all 0.1s ease-in-out;
+}

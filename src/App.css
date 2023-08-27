@@ -1,0 +1,9 @@
+@media screen and (min-width:967px) {
+  .footer__hero {
+    /* margin-top: 180px; */
+  }
+}
+
+.swiper-wrapper {
+  display: flex;
+}
