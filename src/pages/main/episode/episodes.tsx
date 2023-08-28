@@ -36,7 +36,7 @@ const Episodes = () => {
           />
         </div>
 
-        <div className="pt-[100px] grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="pt-[100px] grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-5">
           {data.episodes.map((episode) => {
             return <Episode key={episode.id} episode={episode} />;
           })}

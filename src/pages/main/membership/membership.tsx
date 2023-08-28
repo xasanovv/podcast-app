@@ -7,7 +7,7 @@ const Membership: React.FC<{ membership: MembershipPropsType }> = ({
   return (
     <div
       key={membership.id}
-      className="flex flex-col items-center justify-center p-5 hover:shadow-xl rounded-[24px]"
+      className="flex flex-col text-center items-center justify-center p-5 hover:shadow-xl rounded-[24px]"
     >
       <img src={membership.imgUrl} alt="" />
       <h2 className="mt-5 text-[23px] font-bold ">{membership.title}</h2>
