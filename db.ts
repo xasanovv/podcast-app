@@ -195,6 +195,52 @@ const data = {
       ],
     },
   ],
+  posts: [
+    {
+      id: 1,
+      imgUrl: './article/img.png',
+      type: 'PODCAST',
+      title: 'Setup Your Own Podcast',
+      subtitle:
+        'Learn how to create your podcast from scratch and join the world of business, podcasting, and startups.',
+      tag: ['business', 'podcast', 'startup'],
+      date: 'Sep 14, 2021',
+      socials: {},
+    },
+    {
+      id: 2,
+      imgUrl: './article/img (1).png',
+      type: 'TIPS & TRICK',
+      title: 'Doodle Artwork 101',
+      subtitle:
+        'Master the art of doodling with essential tips and tricks, sparking your creativity and artistic skills.',
+      tag: ['art', 'tips and tricks', 'creative'],
+      date: 'Sep 12, 2021',
+      socials: {},
+    },
+    {
+      id: 3,
+      imgUrl: './article/img (2).png',
+      type: 'NEWS',
+      title: 'Mother Nature Taking Over',
+      subtitle:
+        'Stay updated on the latest news regarding the powerful impact of nature on our world.',
+      tag: ['news', 'nature'],
+      date: 'Sep 10, 2021',
+      socials: {},
+    },
+    {
+      id: 4,
+      imgUrl: './article/img (3).png',
+      type: 'PRODUCTIVITY',
+      title: 'How to Be Productive',
+      subtitle:
+        'Elevate productivity with effective strategies and a positive mindset, unlocking your full potential.',
+      tag: ['productivity', 'mindset'],
+      date: 'Sep 8, 2021',
+      socials: {},
+    },
+  ],
 };
 
 export default data;
