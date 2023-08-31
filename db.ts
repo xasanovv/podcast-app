@@ -241,6 +241,63 @@ const data = {
       socials: {},
     },
   ],
+  members: [
+    {
+      id: 1,
+      count: 76,
+      title: 'Community Members',
+    },
+    {
+      id: 2,
+      count: 128,
+      title: 'Podcast Subscribers ',
+    },
+    {
+      id: 3,
+      count: 59,
+      title: 'Daily Listeners',
+    },
+  ],
+  founders: [
+    {
+      id: 1,
+      name: 'Porter Severus',
+      title:
+        'Co-Founder Extraordinaire, Guiding Our Journey Towards Excellence with Vision, Innovation, and Unwavering Dedication to Success',
+      imgUrl: './about-images/avatar.png',
+      iconUrl: './about-images/Face 1.png',
+      socials: {},
+    },
+    {
+      id: 2,
+      name: 'Marques Keith',
+      iconUrl: './about-images/Star.png',
+      title:
+        'Co-Founder and Creative Visionary Driving Innovation and Success in Our Endeavors.',
+      imgUrl: './about-images/avatar (1).png',
+      socials: {},
+    },
+  ],
+  sponsorsSays: [
+    {
+      id: 1,
+      title:
+        "I absolutely love 'Tech Talk with Experts'! The host brings in such knowledgeable guests who dive deep into the latest tech trends. It's like having a tech guru in my pocket. I've learned so much about AI, blockchain, and other cutting-edge topics. Highly recommend!",
+      imgUrl: './about-images/sponsors-image/Google Podcast.png',
+    },
+    {
+      id: 2,
+      title:
+        "I absolutely love 'Tech Talk with Experts'! The host brings in such knowledgeable guests who dive deep into the latest tech trends. It's like having a tech guru in my pocket. I've learned so much about AI, blockchain, and other cutting-edge topics. Highly recommend!",
+      imgUrl: './about-images/sponsors-image/Spotify.png',
+    },
+    {
+      id: 3,
+      title:
+        "I absolutely love 'Tech Talk with Experts'! The host brings in such knowledgeable guests who dive deep into the latest tech trends. It's like having a tech guru in my pocket. I've learned so much about AI, blockchain, and other cutting-edge topics. Highly recommend!",
+      imgUrl: './about-images/sponsors-image/Youtube.png',
+    },
+  ],
 };
 
 export default data;

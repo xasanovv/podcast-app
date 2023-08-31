@@ -3,7 +3,7 @@ import rightImage from '../../assets/svgs/hero/hero-right.svg';
 
 export const HeroSection: React.FC<HeroSectionPropsType> = ({ children }) => {
   return (
-    <div>
+    <div className='-z-50'>
       <div className="absolute left-0 mt-[200px] md:mt-[70px]">
         <img
           className="w-[50%] lg:w-[100%] md:w-[80%] "

@@ -16,7 +16,7 @@ html,body {
 :root {
   --header-bg-color: rgba(247, 237, 232, 1);
   --text-orange-color: rgba(205, 70, 49, 1);
-  --text-grey-color: Grey;
+  --text-grey-color: #4D4D4D;
 }
 
 .episode:hover .title> * {
@@ -58,3 +58,36 @@ html,body {
   top: 12px;
   transition: all 0.1s ease-in-out;
 }
+.member__content {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #CD4631;
+  border-radius: 12px;
+}
+.member1:hover .member__content {
+  left: 12px; 
+  top: 12px;
+  transition: all 0.1s ease-in-out;
+}
+.founder__content {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #000;
+  border-radius: 12px;
+}
+.founder1:hover .founder__content {
+  left: 12px; 
+  top: 12px;
+  transition: all 0.1s ease-in-out;
+}
+

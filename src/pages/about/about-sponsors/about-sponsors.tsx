@@ -1,12 +1,12 @@
 import Title from '../../../components/Title/title';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
-import Review from './review';
 import data from '../../../../db';
+import AboutSponsor from './about-sponsor';
 
 const Reviews: React.FC = () => {
   return (
-    <div className="w-full bg-[#EDF3F7]">
+    <div className="w-full bg-champagne-color">
       <div className="py-[140px] container relative">
         <div className="absolute left-36 top-16">
           <svg
@@ -70,9 +70,12 @@ const Reviews: React.FC = () => {
             className="w-full overflow-hidden"
           >
             {data
-              ? data.reviews.map((review) => (
-                  <SwiperSlide key={review.id}>
-                    <Review key={review.id} review={review} />
+              ? data.sponsorsSays.map((sponsorsSay) => (
+                  <SwiperSlide key={sponsorsSay.id}>
+                    <AboutSponsor
+                      key={sponsorsSay.id}
+                      sponsorsSay={sponsorsSay}
+                    />
                   </SwiperSlide>
                 ))
               : 'loading...'}
