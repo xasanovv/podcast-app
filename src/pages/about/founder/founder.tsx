@@ -2,7 +2,7 @@ import { Icon } from '@iconify/react/dist/iconify.js';
 
 const Founder: React.FC<{ founder: FounderPropsType }> = ({ founder }) => {
   return (
-    <div className="founder1 relative bg-white flex-1 flex">
+    <div className="founder1 relative bg-white flex-1 flex rounded-lg">
       <div className="founder__content"></div>
       <div className='absolute top-2 right-0 hidden md:inline-block'>
         <img className='w-[80%]' src={founder.iconUrl} alt="" />
