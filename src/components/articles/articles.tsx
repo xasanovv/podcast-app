@@ -1,8 +1,8 @@
 import React from 'react';
-import Title from '../../../components/Title/title';
-import { Button } from '../../../components/button/button';
-import data from '../../../../db';
-import Article from './article';
+import Title from '../Title/title';
+import { Button } from '../button/button';
+import data from '../../../db';
+import Article from '../article/article';
 
 const Articles = () => {
   const [browseAll, setBrowseAll] = React.useState(true);
@@ -11,7 +11,7 @@ const Articles = () => {
     <div className="container relative py-[140px]">
       <Title text="Article and News" subtitle="News, tips, tricks and more" />
       <div className="w-full relative">
-        <div className="absolute lg:-left-24 lg:top-6 -top-64 md:-left-24 -left-12">
+        <div className="absolute hidden md:inline-block lg:-left-24 lg:top-6 -top-64 md:-left-24 -left-12">
           <svg
             width="199"
             height="175"
@@ -25,7 +25,7 @@ const Articles = () => {
             />
           </svg>
         </div>
-        <div className='absolute lg:-right-36 -bottom-36 -right-12 lg:-bottom-12'>
+        <div className="absolute lg:-right-36 -bottom-36 -right-12 lg:-bottom-12">
           <svg
             width="284"
             height="340"

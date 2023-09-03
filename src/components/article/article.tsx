@@ -1,9 +1,12 @@
 import React from 'react';
-import { ArticlePropsType } from '../../../types/articleType';
+import { ArticlePropsType } from '../../types/articleType';
+import { useNavigate } from 'react-router-dom';
 
 const Article: React.FC<{ post: ArticlePropsType }> = ({ post }) => {
+  const navigate = useNavigate();
+
   return (
-    <div className="article1 relative w-full h-full ">
+    <div onClick={() => navigate(`/blog/${post.id}`)} className="article1 relative w-full h-full ">
       <div className="article__content "></div>
 
       <div

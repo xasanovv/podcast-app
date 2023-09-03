@@ -198,7 +198,7 @@ const data = {
   posts: [
     {
       id: 1,
-      imgUrl: './article/img.png',
+      imgUrl: '.././article/img.png',
       type: 'PODCAST',
       title: 'Setup Your Own Podcast',
       subtitle:
@@ -209,7 +209,7 @@ const data = {
     },
     {
       id: 2,
-      imgUrl: './article/img (1).png',
+      imgUrl: '.././article/img (1).png',
       type: 'TIPS & TRICK',
       title: 'Doodle Artwork 101',
       subtitle:
@@ -220,7 +220,7 @@ const data = {
     },
     {
       id: 3,
-      imgUrl: './article/img (2).png',
+      imgUrl: '.././article/img (2).png',
       type: 'NEWS',
       title: 'Mother Nature Taking Over',
       subtitle:
@@ -231,7 +231,7 @@ const data = {
     },
     {
       id: 4,
-      imgUrl: './article/img (3).png',
+      imgUrl: '.././article/img (3).png',
       type: 'PRODUCTIVITY',
       title: 'How to Be Productive',
       subtitle:

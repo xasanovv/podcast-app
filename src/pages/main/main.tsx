@@ -13,7 +13,7 @@ import data from '../../../db';
 import Memberships from './membership/memberships';
 import Episodes from './episode/episodes';
 import Sponsors from './sponsor/sponsors';
-import Articles from './articles/articles';
+import Articles from '../../components/articles/articles';
 
 function Main() {
   return (
@@ -83,7 +83,7 @@ function Main() {
       <Memberships />
       <Episodes />
       <Sponsors />
-      <Articles/>
+      <Articles />
     </>
   );
 }
