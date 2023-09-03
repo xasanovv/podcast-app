@@ -30,12 +30,12 @@ const Memberships = () => {
             <Membership membership={membership} />
           ))}
         </div>
-        <div className="w-full text-center mt-24">
+        <a href='#sponsorsa' className="w-full inline-block text-center mt-24">
           <Button
             text="SEE PRICING"
             classes="px-[36px] py-[20px] bg-black text-white hover:bg-transparent hover:text-black"
           />
-        </div>
+        </a>
       </div>
     </>
   );

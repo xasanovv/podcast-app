@@ -4,7 +4,7 @@ import Sponsor from './sponsor';
 
 const Sponsors = () => {
   return (
-    <div className="container relative py-[140px] ">
+    <div id='sponsors' className="container relative py-[140px] ">
       <Title
         text="Become our sponsor"
         subtitle="Get exclusive episodes, merch and more"

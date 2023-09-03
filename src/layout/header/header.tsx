@@ -25,10 +25,12 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center gap-[20px]">
-            <Button
-              text="RECENT EPISODES"
-              classes="hover:bg-black hover:text-white hidden md:inline-block"
-            />
+            <a href="#recent-episodes">
+              <Button
+                text="RECENT EPISODES"
+                classes="hover:bg-black hover:text-white hidden md:inline-block"
+              />
+            </a>
             <Button text="SUBSCRIBE" classes="bg-black text-white" />
           </div>
         </nav>

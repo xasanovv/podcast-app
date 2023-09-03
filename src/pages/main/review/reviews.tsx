@@ -6,7 +6,7 @@ import data from '../../../../db';
 
 const Reviews: React.FC = () => {
   return (
-    <div className="w-full bg-[#EDF3F7]">
+    <div id="testimonials" className="w-full bg-[#EDF3F7]">
       <div className="py-[140px] container relative">
         <div className="absolute left-36 top-16">
           <svg
