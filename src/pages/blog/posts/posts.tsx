@@ -47,7 +47,7 @@ const Posts = () => {
             {filterValues.map((filter) => {
               return (
                 <li
-                  onClick={() => setFilterValue(filter)}
+                  onClick={() => setFilterValue(filter as FilterValueType)}
                   className={`text-[1.5rem] text-center p-3 border flex-1 whitespace-nowrap border-grey-color cursor-pointer ${
                     filterValue === filter
                       ? 'border-orange-color text-orange-color'

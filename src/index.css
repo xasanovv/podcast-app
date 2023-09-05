@@ -7,6 +7,7 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 #root {
@@ -107,4 +108,7 @@ body {
 }
 .search-posts>input:hover .search-posts::before {
   left: 20px;
+}
+html {
+  scroll-behavior: smooth;
 }

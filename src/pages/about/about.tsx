@@ -24,14 +24,14 @@ const About = () => {
                       We cover all kinds of categories and a weekly special
                       guest.
                     </p>
-                    <div className="flex items-center gap-5">
+                    <div className="flex flex-col justify-center pt-16 items-center md:flex-row w-full gap-5">
                       <Button
                         text="BECOME SPONSOR"
-                        classes="mt-[60px] px-[36px] py-[20px] hover:bg-black hover:text-white"
+                        classes="md:mt-[60px] hidden md:inline-block px-[36px] py-[20px] hover:bg-black hover:text-white"
                       />
                       <Button
                         text="Subscribe"
-                        classes="mt-[60px] px-[36px] py-[20px] bg-black text-white"
+                        classes="md:mt-[60px] px-[36px] py-[20px] bg-black text-white"
                       />
                     </div>
                   </div>

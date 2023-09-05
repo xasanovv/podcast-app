@@ -1,16 +1,17 @@
-import React from 'react';
-import { Params, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { HeroSection } from '../../../components/heroSection/heroSection';
 import data from '../../../../db';
 import { Icon } from '@iconify/react/dist/iconify.js';
 import Articles from '../../../components/articles/articles';
 
+
 const BlogDetail = () => {
-  const params: Readonly<Params<string>> = useParams();
+  const params = useParams();
   const navigate = useNavigate();
 
   const blogDetailData = data.posts.filter((post) => {
-    return post.id == params.id;
+    const paramId = params.id ? Number(params.id) : undefined;
+    return typeof paramId === 'number' && post.id === paramId;
   });
 
   const blogDetail = blogDetailData[0];
@@ -69,8 +70,12 @@ const BlogDetail = () => {
         </div>
       </div>
       <div className="w-full h-full bg-champagne-color">
-        <img className='w-full max-h-[960px] object-cover' src={blogDetail.imgUrl} alt="" />
-        <Articles/>
+        <img
+          className="w-full max-h-[960px] object-cover"
+          src={blogDetail.imgUrl}
+          alt=""
+        />
+        <Articles />
       </div>
     </>
   );
