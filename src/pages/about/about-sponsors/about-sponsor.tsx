@@ -16,7 +16,7 @@ const Review: React.FC<{ sponsorsSay: SponsorSayPropsType }> = ({
 };
 
 export interface SponsorSayPropsType {
-  id: number;
+  id: string;
   title: string;
   imgUrl: string;
 }
