@@ -1,5 +1,5 @@
 export interface MemberPropsType {
-  id: number;
+  id: string;
   title: string;
   count: number;
 }

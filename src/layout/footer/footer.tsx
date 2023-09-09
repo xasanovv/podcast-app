@@ -1,13 +1,14 @@
 import Title from '../../components/Title/title';
 import { Button } from '../../components/button/button';
-import googlePodcastImage from '../../assets/svgs/social/googlePodcast.svg';
-import spotifyImage from '../../assets/svgs/social/spotify.svg';
-import youTubeImage from '../../assets/svgs/social/youTube.svg';
-import footerRight from '../../assets/svgs/footer/Home (1).png';
-import footerRightMin from '../../assets/svgs/footer/Home.png';
-import footerLeftMin from '../../assets/svgs/footer/play.png';
-import footerLeft from '../../assets/svgs/footer/play (1).png';
-import logo from '../../assets/svgs/hero/logo.svg';
+
+import googlePodcastImage from '../../../public/svgs/social/googlePodcast.svg';
+import spotifyImage from '../../../public/svgs/social/spotify.svg';
+import youTubeImage from '../../../public/svgs/social/youTube.svg';
+import footerRight from '../../../public/svgs/footer/Home (1).png';
+import footerRightMin from '../../../public/svgs/footer/Home.png';
+import footerLeftMin from '../../../public/svgs/footer/play.png';
+import footerLeft from '../../../public/svgs/footer/play (1).png';
+import logo from '../../../public/svgs/hero/logo.svg';
 import { Icon } from '@iconify/react';
 import { Link, useLocation } from 'react-router-dom';
 

@@ -47,8 +47,8 @@ const Sponsor: React.FC<{ sponsor: SponsorPropsType }> = ({ sponsor }) => {
       >
         <p className="text-grey-color text-sm ">What's included:</p>
         <ul className="flex flex-col gap-[10px] pt-5">
-          {sponsor.included.map((include) => (
-            <li key={sponsor.id}>{include}</li>
+          {sponsor.included.map((include,index) => (
+            <li key={index}>{include}</li>
           ))}
         </ul>
       </div>

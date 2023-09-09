@@ -1,5 +1,5 @@
 export interface SponsorPropsType {
-  id: number;
+  id: string;
   type: string;
   popular: boolean;
   title: string;

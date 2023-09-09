@@ -1,5 +1,5 @@
 export interface MembershipPropsType {
-  id: number;
+  id: string;
   imgUrl: string;
   title: string;
   text: string;

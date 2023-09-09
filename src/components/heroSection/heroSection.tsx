@@ -1,5 +1,5 @@
-import leftImage from '../../assets/svgs/hero/hero-left.svg';
-import rightImage from '../../assets/svgs/hero/hero-right.svg';
+import leftImage from '../../../public/svgs/hero/hero-left.svg';
+import rightImage from '../../../public/svgs/hero/hero-right.svg';
 
 export const HeroSection: React.FC<HeroSectionPropsType> = ({ children }) => {
   return (

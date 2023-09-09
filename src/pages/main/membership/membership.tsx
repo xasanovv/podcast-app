@@ -16,5 +16,4 @@ const Membership: React.FC<{ membership: MembershipPropsType }> = ({
   );
 };
 
-
 export default Membership;

@@ -1,4 +1,4 @@
-import logo from '../../assets/svgs/hero/logo.svg';
+import logo from '../../../public/svgs/hero/logo.svg';
 import { Link } from 'react-router-dom';
 import { Button } from '../../components/button/button';
 
