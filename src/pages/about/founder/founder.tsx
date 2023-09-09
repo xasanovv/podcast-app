@@ -43,7 +43,7 @@ const Founder: React.FC<{ founder: FounderPropsType }> = ({ founder }) => {
 };
 
 export interface FounderPropsType {
-  id: number;
+  id: string;
   name: string;
   title: string;
   imgUrl: string;
